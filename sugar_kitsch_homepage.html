@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>♡ SUGAR OBJECT HOME ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- 도트 느낌의 웹폰트 (Pretendard + 교체 가능) -->
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'DotGothic16', sans-serif;
+      background-color: #fff0f5;
+      background-image: url('https://i.imgur.com/0F0tQhG.png'); /* 슈가 조각 배경 */
+      background-size: cover;
+      background-repeat: repeat;
+      color: #d63384;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 80px auto;
+      padding: 40px;
+      background: #ffffffcc;
+      border: 3px dashed #ffa6c9;
+      border-radius: 24px;
+      box-shadow: 0 0 20px #ffcde3;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .date {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+
+    .menu-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      border-radius: 16px;
+      background-color: #fff0f5;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      box-shadow: 0 0 0 transparent;
+    }
+
+    .menu-item:hover {
+      background-color: #ffe0f0;
+      transform: scale(0.95);
+      box-shadow: 0 0 12px #ffcde3;
+    }
+
+    .menu-item img {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 10px;
+    }
+
+    .menu-item span {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>♥ SUGAR OBJECT ♥</h1>
+    <div class="date">2025.08.07</div>
+
+    <div class="menu">
+      <div class="menu-item">
+        <img src="https://i.imgur.com/M2kSbCZ.png" alt="product">
+        <span>PRODUCT</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://i.imgur.com/kTPl4tX.png" alt="prompt">
+        <span>PROMPT</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://i.imgur.com/XYs3Jrc.png" alt="tips">
+        <span>TIPS</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://i.imgur.com/I0q3UVr.png" alt="notion">
+        <span>NOTION</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
